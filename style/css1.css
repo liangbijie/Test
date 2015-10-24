@@ -1,0 +1,355 @@
+body{
+    background: #ffffff url("../images/body_bg.png") repeat-x;
+}
+#top{
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+}
+#top_menu{
+    float: left;
+
+}
+#top_menu li{
+    float: left;
+    background: url("../images/ico_1.png") no-repeat right 16px;
+    padding-right: 18px;
+    margin-right: 15px;
+
+
+}
+#top_menu a{
+    font-size: 13px;
+    color: #c0c0c0;
+    line-height: 30px;
+}
+#top_menu a:hover{
+    color: #ffffff;
+}
+#top_menu .no_dot{
+    background: none;
+}
+
+#top_bar{
+    float: right;
+    width: 320px;
+    line-height: 30px;
+}
+#top_bar li{
+    float: left;
+}
+#top_bar .phone{
+    background: url("../images/ico_1.png") no-repeat -13px -11px;
+    font-size:13px;
+    color:#fff;
+    padding-left: 22px;
+    font-weight: bold;
+}
+#top_bar .help{
+    background: url("../images/ico_1.png") no-repeat 0 -41px;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 38px;
+    font-weight: bold;
+    margin-left: 37px;
+}
+#top_bar .help a{
+    color: #ffffff;
+}
+#top_bar .space {
+    margin-left: 30px;
+    margin-right: 14px;
+}
+
+#header{
+    width: 960px;
+    height: 99px;
+    margin:0 auto;
+    background: url("../images/header_bg.png") no-repeat ;
+}
+#shopping{
+    width: 278px;
+    height: 99px;
+    background: url("../images/ico_2.png") no-repeat 0 7px;
+    float: left;
+    position: relative;
+}
+
+#shopping p{
+    font-size: 20px;
+    color: #f7f7f7;
+    margin-left: 85px;
+    margin-top: 25px;
+    position: relative;
+    float: left;
+}
+#shopping a{
+    display: block;
+    background: url("../images/ico_2.png") no-repeat 0 -186px;
+    color: #ffc200;
+    font-size: 15px;
+    line-height: 23px;
+    padding-left: 20px;
+    margin-left: 104px;
+    margin-top: 63px;
+    position: relative;
+    font-weight: bold;
+}
+#shopping a:hover{
+    color: #ffd85c;
+}
+
+
+
+#title{
+    width: 391px;
+    height: 99px;
+    background: url("../images/ico_2.png") no-repeat 91px -87px;
+    float: left;
+}
+#search{
+    width: 291px;
+    height: 31px;
+    margin-top: 32px;
+    background: url("../images/ico_2.png") no-repeat 0 -209px;
+    float: left;
+}
+#search .btn{
+    width: 40px;
+    height: 30px;
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
+}
+#search .text{
+    width: 229px;
+    height: 30px;
+    border: none;
+    background: none;
+    float: left;
+    font-size: 13px;
+    color: #666;
+    outline: none;
+    margin-left: 21px;
+}
+
+#nav{
+
+    width: 960px;
+    margin: 0 auto;
+    height: 44px;
+
+}
+#nav li{
+    float: left;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family:Arial;
+    height: 28px;
+}
+#nav li a {
+    float: left;
+    height: 28px;
+    margin-left: 3px;
+    line-height: 28px;
+}
+#nav li a:hover,#nav .active a{
+    background: url("../images/ico_3.png") repeat-x 0 -28px;
+}
+#nav li strong{
+    float: left;
+    font-weight: normal;
+    color: #fff;
+    height: 28px;
+}
+#nav li strong:hover,#nav .active  strong{
+    background: url("../images/ico_3.png") no-repeat ;
+}
+#nav li span{
+    float: left;
+    padding: 0 16px ;
+    height: 28px;
+}
+#nav li span:hover,#nav .active  span{
+    background: url("../images/ico_3.png") no-repeat right -56px;
+}
+
+
+
+#content{
+    margin: 0 auto;
+    width: 1000px;
+    background: url("../images/content_bg.png") repeat-y  -1000px 0;
+}
+#content_top{
+    width: 1000px;
+    background: url("../images/content_bg.png") no-repeat  ;
+}
+#content_bottom{
+    width: 1000px;
+    background: url("../images/content_bg.png")no-repeat -2000px 0;
+}
+
+ #ad{
+     position: relative;
+    width: 942px;
+    height: 334px;
+    margin: 0 auto;
+}
+#content #ad a{
+    display: block;
+    width: 942px;
+    height: 300px;
+    padding-top: 34px;
+}
+#content #ad img{
+
+}
+#content #ad .ad_text{
+    position: absolute;
+    width: 942px;
+    height: 52px;
+    margin-bottom: 0;
+    background: black;
+    opacity: 0.8;
+    top:282px
+}
+#content #ad .ad_text h3{
+    float: left;
+    display: block;
+    height: 52px;
+    width:269px;
+    font-size:25px ;
+    color: #ffc600;
+    font-weight: bold;
+    line-height: 52px;
+    text-align:  center;
+}
+#content #ad .ad_text p{
+    float: left;
+    display: block;
+    height: 38px;
+    width: 673px;
+    font-size: 13px;
+    color: #ffcccc;
+    text-align:  center;
+    padding-top: 14px;
+}
+
+#main{
+    width: 942px;
+    margin:0 auto;
+}
+#side{
+    margin-top: 31px;
+    width: 245px;
+    float: left;
+}
+#side h2{
+
+    background: url("../images/side_bg_top.png") no-repeat;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 41px;
+}
+#side a{
+    display: block;
+    background: url("../images/side_bg_middle.png") repeat-y ;
+    color: #434343;
+    font-size: 12px;
+    font-weight: bold;
+    width: 309px;
+    line-height: 30px;
+}
+#side a:hover{
+    color: #b20e00;
+}
+
+#side span{
+    display: block;
+    width: 209px;
+    height: 30px;
+    background: url("../images/side_bg_bottom_white.png")no-repeat  bottom ;
+}
+#side strong{
+    padding-left: 41px;
+}
+#side .side_bottom{
+    height: 15px;
+    background: url("../images/side_bg_bottom.png") no-repeat ;
+
+}
+
+
+#join_us{
+    width: 245px;
+    height: 332px;
+}
+#join_us p{
+    padding-top: 29px;
+    padding-left: 24px;
+    padding-right: 41px;
+    font-size: 15px;
+    color: #666666;
+    font-weight: bold;
+}
+#join_us .text1{
+    width: 180px;
+    height: 26px;
+    outline: none;
+    margin-top: 13px;
+    margin-left: 24px;
+}
+#join_us .btn1{
+    margin-left: 70px;
+    margin-top: 8px ;
+    margin-bottom: 22px;
+    width: 88px;
+    height: 25px;
+    outline: none;
+    border: none;
+    background: url("../images/side_join_us_btn.png") no-repeat;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+
+}
+#join_us ul{
+    padding-left: 24px;
+
+}
+#join_us li a{
+    height: 44px;
+    width: 115px;
+    line-height: 22px;
+    padding-left: 54px;
+    padding-right: 54px;
+    display: block;
+
+}
+#join_us .twitter{
+    background: url("../images/side_ico.png") no-repeat;
+}
+#join_us .facebook{
+    background: url("../images/side_ico.png") no-repeat 0 -40px ;
+}
+#join_us .linkedin{
+    background: url("../images/side_ico.png") no-repeat 0 -88px ;
+}
+#join_us .email{
+    background: url("../images/side_ico.png") no-repeat 0 -132px ;
+}
+
+
+
+
+
+
+#wrap{
+    float: left;
+    width: 710px;
+    background: green;
+}
